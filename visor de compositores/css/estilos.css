@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    text-align: center;
+    background-color: #E43E4F;
+    padding: 30px;
+    opacity: 83%;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    width: 94%;
+}
+p{
+    text-align: center;
+    font-size: 1.7em;
+    color: beige;
+}
+img{
+    width: 353px;
+}
+.botones{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#izquierda{
+    position: relative;
+    left: 26px;
+}
+#derecha{
+    position: relative;
+    left: 94%;
+}
+button{
+    background: #99A3A4;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+#chopi{
+    height: 56px;
+}
+#liszt{
+    height: 50%;
+    background-color: #1B1C1B;
+}
+#liszt_1{
+    visibility: hidden;
+}
+#piano{
+    display: flex;
+}
+button:hover{
+    background: #CCD1D1;
+}
+.contenedor{
+    visibility: hidden;
+    height: 28em;
+}
+.visor{
+    display: flex;
+}
